@@ -1,0 +1,20 @@
+body {
+    background-image: url('/images/heart.jpg');
+    background-repeat: no-repeat;
+    /* 避免背景图像自身重复 */
+    background-attachment: scroll;
+    background-size: cover;
+    /* 图像背景覆盖整个元素，没有拉伸，拉伸size参数设为100% 100% */
+}
+
+h1 {
+    font-size: 1000%;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 800%;
+    color: white;
+    text-align: center;
+}

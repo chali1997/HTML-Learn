@@ -1,0 +1,132 @@
+body {
+    display: block;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    border: 8px solid rgb(252, 204, 3);
+    border-style: none solid;
+}
+
+h3 {
+    letter-spacing: .1px;
+    line-height: 1.632;
+}
+
+div a:link,
+div a:visited {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: rgb(252, 204, 3);
+    display: inline-block;
+}
+
+div a:hover,
+div a:active {
+    text-decoration-thickness: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    width: 125px;
+}
+
+nav ul li a:link,
+a:visited {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+a:active {
+    background-color: lightgrey;
+}
+
+.head {
+    background-image: url('/images/ruins-atlantis-civilization-underwater-ruin.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 2%;
+}
+
+.title {
+    margin: 5% 25% 10% 25%;
+}
+
+.little {
+    margin: 0 auto;
+    max-width: 660px;
+    font-size: 90%;
+}
+
+.and {
+    margin: 1% 35% 1% 15%;
+    border-left: 8px solid gray;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.and2 {
+    margin: 2%
+}
+
+.article {
+    margin: 0 35% 0 15%;
+    min-width: 400px;
+}
+
+.inside {
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1% 0;
+    max-width: 600px;
+}
+
+.small {
+    font-size: 80%;
+    margin: 24px auto;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.end {
+    border: 1px solid black;
+    padding: 2%;
+    margin: 1%;
+}
+
+div.Caption::after {
+    background-color: #fc0;
+    content: " ";
+    display: block;
+    height: 4px;
+    margin-top: 20px;
+    position: relative;
+    width: 33px;
+}

@@ -1,0 +1,54 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: dodgerblue;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+p {
+    color: tomato;
+    font-family: courier;
+    font-size: 160%;
+    border: 2px solid powderblue;
+    /* border控制边框 */
+    padding: 30px;
+    /* padding控制文本与边框之间的空格 */
+    margin: 50px;
+    /* margin定义边框的边距 */
+}
+
+/* 更改链接样式 */
+a:link {
+    border: 2px solid blue;
+    padding: 20px;
+    margin: 50px;
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    border: 2px solid greenyellow;
+    padding: 20px;
+    margin: auto;
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/* link链接未访问样式，visited链接访问后样式，hover鼠标悬浮样式，active点击时样式 */

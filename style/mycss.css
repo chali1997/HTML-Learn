@@ -1,0 +1,599 @@
+.p,
+.h1 {
+    color: white;
+}
+
+body {
+    background-color: white;
+}
+
+div {
+    background-color: lightblue;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.one1 {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.two1 {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.three1 {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
+p.one2 {
+    border-style: solid;
+    border-color: red;
+}
+
+p.two2 {
+    border-style: solid;
+    border-color: green;
+}
+
+p.three2 {
+    border-style: dotted;
+    border-color: blue;
+}
+
+p.one3 {
+    border-style: solid;
+    border-color: red green blue yellow;
+    /* red top, green right, blue bottom and yellow left */
+}
+
+p.border {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+p.border1 {
+    border: 5px solid red;
+}
+
+p.border2 {
+    border-left: 6px solid red;
+    background-color: rgb(255, 184, 172, 0.5);
+}
+
+p.border3 {
+    border-bottom: 6px solid red;
+}
+
+p.normal {
+    border: 2px solid red;
+    padding: 5px;
+}
+
+p.round1 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+p.round2 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+p.round3 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+div.div {
+    margin: 70px;
+    border: 1px solid #4CAF50;
+}
+
+p.margin {
+    margin: 25px 50px 75px 100px;
+}
+
+div.dd {
+    border: 1px solid red;
+    margin-left: 100px;
+}
+
+p.ex1 {
+    margin-left: inherit;
+}
+
+div.a {
+    border: 1px solid black;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    background-color: white;
+}
+
+div.b {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+div.c {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+div.d {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+}
+
+div.e {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+p.a {
+    border: 2px solid black;
+    outline: #4CAF50 solid 10px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+p {
+    outline-color: red;
+}
+
+p.dotted1 {
+    outline-style: dotted;
+}
+
+p.dashed1 {
+    outline-style: dashed;
+}
+
+p.solid1 {
+    outline-style: solid;
+}
+
+p.double1 {
+    outline-style: double;
+}
+
+p.groove1 {
+    outline-style: groove;
+}
+
+p.ridge1 {
+    outline-style: ridge;
+}
+
+p.inset1 {
+    outline-style: inset;
+}
+
+p.outset1 {
+    outline-style: outset;
+}
+
+p.ex11 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+}
+
+p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+}
+
+p.ex3 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thick;
+}
+
+p.ex4 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: 4px;
+}
+
+p.b {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+p.c {
+    margin: 30px;
+    background: yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
+
+p.ex12 {
+    outline: dashed;
+}
+
+p.ex22 {
+    outline: dotted red;
+}
+
+p.ex32 {
+    outline: 5px solid yellow;
+}
+
+p.ex42 {
+    outline: thick ridge pink;
+}
+
+div.text {
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: white;
+}
+
+h1.text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+p.text {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+
+a.text {
+    text-decoration: none;
+    color: #008CBA;
+}
+
+p.ex13 {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+img.a {
+    vertical-align: baseline;
+}
+
+img.b {
+    vertical-align: text-top;
+}
+
+img.c {
+    vertical-align: text-bottom;
+}
+
+img.d {
+    vertical-align: sub;
+}
+
+img.e {
+    vertical-align: super;
+}
+
+h1.decoration {
+    text-decoration-line: underline;
+    text-decoration-thickness: auto;
+}
+
+h2.decoration {
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+h3.decoration {
+    text-decoration-line: underline;
+    text-decoration-thickness: 25%;
+}
+
+p.decoration {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+}
+
+p.indent {
+    text-indent: 50px;
+}
+
+h1.spacing {
+    letter-spacing: 5px;
+}
+
+h2.spacing {
+    letter-spacing: -2px;
+}
+
+p.small {
+    line-height: 0.7;
+}
+
+p.big {
+    line-height: 1.8;
+}
+
+p.word {
+    word-spacing: 10px;
+}
+
+p.word2 {
+    word-spacing: -2px;
+}
+
+h1.shadow {
+    text-shadow: 2px 2px 5px grey;
+}
+
+/* unvisited link */
+a:link {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+    background-color: tomato;
+    text-decoration: underline;
+    border: 2px solid tomato;
+    padding: 10px 20px;
+}
+
+/* selected link */
+a:active {
+    color: white;
+    background-color: lightblue;
+    text-decoration: underline;
+    border: 2px solid lightblue;
+    padding: 10px 20px;
+}
+
+/* a:link,
+a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+} */
+
+ul.a {
+    list-style-type: circle;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+ul.c {
+    list-style-position: outside;
+}
+
+ul.d {
+    list-style-position: inside;
+}
+
+ul.e {
+    list-style: square inside url("https: //www.w3schools.com/css/sqpurple.gif");
+}
+
+ol.f {
+    background: #ff9999;
+    padding: 20px;
+}
+
+ul.f {
+    background: #3399ff;
+    padding: 20px;
+}
+
+ol.f li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-left: 35px;
+}
+
+ul.f li {
+    background: #cce5ff;
+    color: darkblue;
+    margin: 5px;
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+#tc {
+    width:100%;
+    border-collapse:collapse;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#tc td,
+#tc th{
+    border:1px solid #ddd;
+    padding:16px;
+}
+
+#tc th{
+    text-align:center;
+    background-color:#ddd;
+    color:white;
+}
+
+#tc td:hover{
+    background-color:gray;
+    color:white;
+}
+ul.fixed {
+    list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 25%;
+        position:absolute;
+        background-color: #f1f1f1;
+        overflow: auto;
+}
+
+ul.fixed li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.fixed li a:hover {
+    background-color: #555;
+    color: white;
+    border:none;
+}
