@@ -577,12 +577,13 @@ ul.f li {
 }
 ul.fixed {
     list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 25%;
-        position:absolute;
-        background-color: #f1f1f1;
-        overflow: auto;
+    margin: 0;
+    padding: 0;
+    width: 325px;
+    position: absolute;
+    background-color: #f1f1f1;
+    overflow: auto;
+    left: 10px;
 }
 
 ul.fixed li a {
