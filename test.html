@@ -2,10 +2,52 @@
 
 <head>
     <title>Test</title>
+    <style>
+        div.page {
+            width:65%;
+            float:left;
+            margin:20px 10px 20px 20px;
+            padding:20px;
+        }
+        div.sidebar {
+            width:20%;
+            float:left;
+            margin:20px 20px 20px 10px;
+            padding:20px;
+            background-color: tomato;
+            color:white;
+            border-radius: 10px;
+            position:fixed;
+            top:0;
+            right:0
+        }
+
+        @media screen and (max-width:750px){
+            body{
+                min-width: 750px;
+            }
+            div.page {
+                width:480px;
+                float:left;
+                margin:20px 10px 20px 20px;
+                padding:20px;}
+            div.sidebar {
+                width:150px;
+                float:left;
+                margin:20px 20px 20px 10px;
+                padding:20px;
+                background-color: tomato;
+                color:white;
+                border-radius: 10px;
+                position:fixed;
+                top:0;
+                right:0}
+        }
+    </style>
 </head>
 
 <body>
-    <div style="width:65%;float:left;margin:20px 10px 20px 20px;padding:20px;">
+    <div class="page">
         <h2>Why Socialism?</h2>
         <blockquote>By Albert Einstein<br>
             This essay was originally pulished in the first issue of <i>Monthly Review</i>(May 1949).</blockquote>
@@ -247,8 +289,7 @@
             under a powerful taboo, I consider the foundation of this magazine to be an important public
             service.</p>
     </div>
-    <div
-        style="width:25%;float:left;margin:20px 20px 20px 10px;padding:20px;background-color: tomato;color:white;border-radius: 10px;">
+    <div class="sidebar">
         阿尔伯特·爱因斯坦，他在自然科学和相对论方面的工作闻名于世。<br>
         我们使用他的名字作为天才的同义词。<br>
         根据最新解密的美国中央情报局数千份历史档案当中之一，他确实是一名共产党员党员。
