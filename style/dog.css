@@ -1576,7 +1576,7 @@ div:after {
     transform-origin: center center;
 }
 
-.eye+.eye {
+.eye + .eye {
     z-index: 1;
     right: initial;
     left: 48%;
@@ -1651,7 +1651,7 @@ div:after {
     transform: rotate(-5deg);
 }
 
-.ear+.ear {
+.ear + .ear {
     -webkit-animation: right-ear 12s both infinite;
     animation: right-ear 12s both infinite;
     background-color: #343C60;
@@ -1661,11 +1661,11 @@ div:after {
     transform-origin: right center;
 }
 
-.ear+.ear:before {
+.ear + .ear:before {
     border-color: #343C60;
 }
 
-.ear+.ear:after {
+.ear + .ear:after {
     background: #343C60;
 }
 
@@ -1850,7 +1850,7 @@ div:after {
     z-index: 2;
 }
 
-.front-legs>.leg {
+.front-legs > .leg {
     width: 51%;
     height: 100%;
     position: absolute;
@@ -1859,7 +1859,7 @@ div:after {
     overflow: hidden;
 }
 
-.front-legs>.leg:before {
+.front-legs > .leg:before {
     background: #C8DAF2;
     height: 100%;
     width: 100%;
@@ -1867,12 +1867,12 @@ div:after {
     transform-origin: top right;
 }
 
-.front-legs>.leg+.leg {
+.front-legs > .leg + .leg {
     right: 0;
     transform: rotateY(180deg);
 }
 
-.front-legs>.leg+.leg:before {
+.front-legs > .leg + .leg:before {
     background: #9EB6D7;
 }
 
@@ -1906,7 +1906,7 @@ div:after {
     z-index: 0;
 }
 
-.tail>.tail {
+.tail > .tail {
     -webkit-animation: tail 12s none infinite;
     animation: tail 12s none infinite;
     height: 100%;
@@ -1919,12 +1919,12 @@ div:after {
     transform: rotate(0deg);
 }
 
-.husky>.tail {
+.husky > .tail {
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
 }
 
-.husky>.tail>.tail {
+.husky > .tail > .tail {
     right: 88%;
 }
 

@@ -499,7 +499,7 @@ ul.d {
 }
 
 ul.e {
-    list-style: square inside url("https: //www.w3schools.com/css/sqpurple.gif");
+    list-style: square inside url("https://www.w3schools.com/css/sqpurple.gif");
 }
 
 ol.f {
@@ -554,27 +554,28 @@ ul.f li {
 }
 
 #tc {
-    width:100%;
-    border-collapse:collapse;
-    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #tc td,
-#tc th{
-    border:1px solid #ddd;
-    padding:16px;
+#tc th {
+    border: 1px solid #ddd;
+    padding: 16px;
 }
 
-#tc th{
-    text-align:center;
-    background-color:#ddd;
-    color:white;
+#tc th {
+    text-align: center;
+    background-color: #ddd;
+    color: white;
 }
 
-#tc td:hover{
-    background-color:gray;
-    color:white;
+#tc td:hover {
+    background-color: gray;
+    color: white;
 }
+
 ul.fixed {
     list-style-type: none;
     margin: 0;
@@ -596,5 +597,5 @@ ul.fixed li a {
 ul.fixed li a:hover {
     background-color: #555;
     color: white;
-    border:none;
+    border: none;
 }

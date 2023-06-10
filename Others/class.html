@@ -21,32 +21,32 @@
 
 <body>
 
-    <div class="city">
-        <h2>London</h2>
-        <p>London is the capital of England.</p>
-    </div>
+<div class="city">
+    <h2>London</h2>
+    <p>London is the capital of England.</p>
+</div>
 
-    <div class="city">
-        <h2>Paris</h2>
-        <p>Paris is the capital of France.</p>
-    </div>
+<div class="city">
+    <h2>Paris</h2>
+    <p>Paris is the capital of France.</p>
+</div>
 
-    <div class="city">
-        <h2>Tokyo</h2>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-    <h1>My <span class="note">Important</span> Heading</h1>
-    <p>This is some <span class="note">important</span> text.</p>
-    <h2 class="city note">London</h2>
-    <button type="button" onclick="myFunction()">Click me !</button>
-    <script>
-        function myFunction() {
-            var x = document.getElementsByClassName("city");
-            for (var i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
+<div class="city">
+    <h2>Tokyo</h2>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+<h1>My <span class="note">Important</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
+<h2 class="city note">London</h2>
+<button onclick="myFunction()" type="button">Click me !</button>
+<script>
+    function myFunction() {
+        var x = document.getElementsByClassName("city");
+        for (var i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
         }
-    </script>
+    }
+</script>
 
 </body>
 

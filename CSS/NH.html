@@ -4,22 +4,24 @@
 
 <head>
     <style>
-        body{
-            margin:0;
+        body {
+            margin: 0;
         }
+
         .header {
-            text-align:center;
+            text-align: center;
         }
+
         ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: auto;
             background-color: #333;
-            position:fixed;
-            width:25%;
-            height:100%;
-            top:0;
+            position: fixed;
+            width: 25%;
+            height: 100%;
+            top: 0;
         }
 
         li a {
@@ -34,32 +36,49 @@
             background-color: #111;
         }
 
-        .active{
-            background-color:#04aa6d
+        .active {
+            background-color: #04aa6d
         }
 
-        div.eve{
-            margin-left:25%;padding:1px 16px;
+        div.eve {
+            margin-left: 25%;
+            padding: 1px 16px;
         }
 
-        @media screen and (max-width:900px) {
-            ul{list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: auto;
-            background-color: #333;
-            position:sticky;
-            width:100%;
-            top:0;}
-            ul li{float:left;}
-            ul li.right{float:right;}
+        @media screen and (max-width: 900px) {
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: auto;
+                background-color: #333;
+                position: sticky;
+                width: 100%;
+                top: 0;
+            }
+
+            ul li {
+                float: left;
+            }
+
+            ul li.right {
+                float: right;
+            }
         }
 
-        @media screen and (max-width:450px) {
-            ul{position:static;}
+        @media screen and (max-width: 450px) {
+            ul {
+                position: static;
+            }
+
             ul li.right,
-            ul li{float:none;}
-            div.eve{margin:5% 2%}
+            ul li {
+                float: none;
+            }
+
+            div.eve {
+                margin: 5% 2%
+            }
         }
     </style>
     <title>NH</title>
@@ -69,13 +88,13 @@
 <div class="header">
     <h2>Scroll Down</h2>
 </div>
-    <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="right"><a href="#about">About</a></li>
-    </ul>
-<div id="home" class="eve">
+<ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li class="right"><a href="#about">About</a></li>
+</ul>
+<div class="eve" id="home">
     <h2>One</h2>
     <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
     <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
@@ -90,7 +109,7 @@
     <p>Some text..</p>
     <p>Some text..</p>
 </div>
-<div id="news" class="eve">
+<div class="eve" id="news">
     <h2>Two</h2>
     <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
     <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
@@ -105,7 +124,7 @@
     <p>Some text..</p>
     <p>Some text..</p>
 </div>
-<div id="contact" class="eve">
+<div class="eve" id="contact">
     <h2>Three</h2>
     <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
     <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%
@@ -120,7 +139,7 @@
     <p>Some text..</p>
     <p>Some text..</p>
 </div>
-<div id="about" class="eve">
+<div class="eve" id="about">
     <h2>Four</h2>
     <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
     <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25%

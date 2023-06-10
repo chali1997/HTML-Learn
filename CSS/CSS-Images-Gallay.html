@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <style>
         div.gallery {
             border: 1px solid #ccc;
@@ -12,6 +12,7 @@
 
         div.gallery:hover {
             border: 1px solid #000000;
+            border-radius: 0 0 10px 10px;
         }
 
         div.gallery img {
@@ -34,14 +35,14 @@
             width: 24.99999%;
         }
 
-        @media only screen and (max-width:700px) {
+        @media only screen and (max-width: 700px) {
             .responsive {
                 width: 49.99999%;
                 margin: 6px 0;
             }
         }
 
-        @media only screen and (max-width:500px) {
+        @media only screen and (max-width: 500px) {
             .responsive {
                 width: 100%;
             }
@@ -57,45 +58,45 @@
 </head>
 
 <body>
-    <h2>Responsive Image Gallery</h2>
-    <h4>Resize the borwser Windows to the effect.</h4>
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="/images/heart.jpg"><img src="/images/heart.jpg" alt="Cinque Terre" width="600"
-                    height="400">
-            </a>
-            <div class="desc">One</div>
-        </div>
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the borwser Windows to the effect.</h4>
+<div class="responsive">
+    <div class="gallery">
+        <a href="/images/heart.jpg" target="_blank"><img alt="Cinque Terre" height="400" src="/images/heart.jpg"
+                                                         width="600">
+        </a>
+        <div class="desc">One</div>
     </div>
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="/images/heart.jpg">
-                <img src="/images/heart.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-            <div class="desc">Two</div>
-        </div>
+</div>
+<div class="responsive">
+    <div class="gallery">
+        <a href="/images/heart.jpg" target="_blank">
+            <img alt="Northern Lights" height="400" src="/images/heart.jpg" width="600">
+        </a>
+        <div class="desc">Two</div>
     </div>
+</div>
 
-    <div class="responsive">
-        <div class="gallery">
-            <a target="_blank" href="/images/heart.jpg">
-                <img src="/images/heart.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Three</div>
-        </div>
+<div class="responsive">
+    <div class="gallery">
+        <a href="/images/heart.jpg" target="_blank">
+            <img alt="Mountains" height="400" src="/images/heart.jpg" width="600">
+        </a>
+        <div class="desc">Three</div>
     </div>
+</div>
 
-    <div class="clearfix"></div>
+<div class="clearfix"></div>
 
-    <div style="padding:6px;">
-        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger
-            than
-            700px
-            wide, it will show four images side by side, for screens smaller than 700px, it will show two images
-            side by
-            side. For screens smaller than 500px, the images will stack vertically (100%).</p>
-        <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-    </div>
+<div style="padding:6px;">
+    <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger
+        than
+        700px
+        wide, it will show four images side by side, for screens smaller than 700px, it will show two images
+        side by
+        side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+    <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
 </body>
 
 </html>

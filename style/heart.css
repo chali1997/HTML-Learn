@@ -9,13 +9,14 @@ h1 {
 }
 
 div {
-    margin:15px;
-}
-.head{
-    float: both;
+    margin: 15px;
 }
 
-.head img{
+.head {
+    float: none;
+}
+
+.head img {
     width: 50%;
     min-width: 500px;
     border: 2px solid white;
@@ -25,22 +26,23 @@ div {
 }
 
 .article1 {
-    padding:20px;
+    padding: 20px;
     background-color: white;
     border-radius: 18px;
 }
+
 .article2 {
     padding: 20px;
     background-image: url('/images/heart.jpg');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: auto;
-        color: white;
-        border-radius: 18px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto;
+    color: white;
+    border-radius: 18px;
 }
 
-.article3{
-    padding:20px;
+.article3 {
+    padding: 20px;
     background-image: url('/images/heart.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -48,6 +50,7 @@ div {
     color: white;
     border-radius: 32px;
 }
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -55,14 +58,16 @@ div {
 }
 
 @media screen and (max-width: 826px) {
-    .head{clear: both;
+    .head {
+        clear: both;
         text-align: center;
     }
-    .head img{
-        float:none;
-        margin:0 auto;
-        padding:0;
+
+    .head img {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
         width: 80%;
-        
+
     }
 }
