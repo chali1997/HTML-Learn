@@ -8,11 +8,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-<<<<<<< HEAD
-    <orderEntry type="library" name="mouse-follower" level="application" />
-    <orderEntry type="library" name="gsap" level="application" />
-    <orderEntry type="library" name="ded408b7aa" level="application" />
-=======
->>>>>>> f8fab8e33b41eb6944ef20ec5c3e3ed67da18740
   </component>
 </module>
